@@ -1,0 +1,30 @@
+.typewriter-effect {
+    display: flex;
+    justify-content: center;
+  }
+
+  .typewriter-effect h1 {
+    float: left;
+    position: relative;
+    color: #ffea00;
+  }
+
+  .typewriter-effect h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    color: #ffea00;
+    background: #002b4d;
+    border-left: 3px solid;
+    animation: typewriter 3s infinite steps(26)
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 100%;
+    }
+
+    to {
+      width: 0%;
+    }
+  }
